@@ -37,7 +37,7 @@ Makers:Azhar_Pasha
 Contact Me:azhargntl1@gmail.com
 Since:2018
 CopyRight 2019
-Note:Pembutan Baris setiap 2detik
+Note:Pembuatan Baris setiap 2detik(2b/s)
 ''')
 nama = input('Siapa nama lengkap Target>')
 nad = input('Nama Depan>')
