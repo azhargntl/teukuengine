@@ -1,22 +1,24 @@
 import time
-azhar = True
-while azhar:
-    pasha = input('Nama Pengguna>')
-    if pasha == "azhar":
-        azhar = False
-    elif pasha == "faisal":
-        azhar = False
-    else:
-        azhar = True
-        
-gntl = True
-while gntl:
-    gt = input('Passwordnya>')
-    if gt == "tuanazhar":
-        gntl = False
-    else:
-        gntl = True
-print('''
+a = ('100')
+b = ('101')
+c = ('102')
+d = ('103')
+e = ('104')
+f = ('105')
+g = ('106')
+h = ('107')
+i = ('108')
+j = ('109')
+k = ('110')
+l = ('111')
+m = ('112')
+n = ('113')
+biru = "\033[96;1m" 
+hijau = "\033[32;1m" 
+putih = "\033[0;1m"  
+merah = "\033[31;1m"
+netral = "\033[0m"
+print(biru+'''
 $$$$$$$$$$$$$ $$$$$$$$$$ $$      $$ $$  $$ $$      $$
      $$       $$         $$      $$ $$ $$  $$      $$
      $$       $$$$$$$$$$ $$      $$ $$$$   $$      $$
@@ -24,38 +26,40 @@ $$$$$$$$$$$$$ $$$$$$$$$$ $$      $$ $$  $$ $$      $$
      $$       $$$$$$$$$$ $$$$$$$$$$ $$  $$ $$$$$$$$$$
 #####################################################''')
 time.sleep(4)
-print('''
+print(hijau+'''
 $$$$$$$$$$$$$ $$$$$$$$$$$ $$$$$$$$$$$ $$ 
      $$       $$       $$ $$       $$ $$
      $$       $$       $$ $$       $$ $$
      $$       $$       $$ $$       $$ $$
      $$       $$$$$$$$$$$ $$$$$$$$$$$ $$$$$$$$
 ####################################################
-''')
-print('''
-Makers:Azhar_Pasha
-Contact Me:azhargntl1@gmail.com
 Since:2018
-CopyRight 2019
-Note:Pembuatan Baris setiap 2detik(2b/s)
+'''+netral)
+print(biru+'''
+Makers:MR.Teuku
+Since:2017
 ''')
-nama = input('Siapa nama lengkap Target>')
+print(merah+'COPYRIGHT 2019'+netral)
+print(merah+'Untuk Keluar Tekan _NO_')
+nama = input(biru+'Siapa nama lengkap Target>')
+if nama == "NO" or nama == "no":
+    exit()
 nad = input('Nama Depan>')
 nab = input('Nama Belakang>')
-tgl = input('Tanggal Lahir')
-np = input('Nama pet>')
-npt = input('tanggal pet>')
-pc = input('Nama Pacar>')
+tgl = input('Tanggal Lahir'+netral)
+np = input(hijau+'Nama pet>')
+npt = input('tanggal pet>'+netral)
+pc = input(merah+'Nama Pacar>')
 dk = input('Nama Adik>')
 sh = input('Nama Sahabat>')
-pg = input('Nama Panggilan>')
-gratis = True
-while gratis:
-    gra = input("Tulis Kode Program Ini>")
-    if gra == "221205":
-        gratis = False
+pg = input('Nama Panggilan>'+netral)
+azhar1 = True
+while azhar1:
+    azhar = input(merah+'Mau Lanjut Unpacking untuk TDK=T dan YA=Y')
+    if azhar == "y" or azhar == "Y":
+        azhar1 = False
     else:
-        gratis = True
+        azhar1 = True
 print('Memulai Proses Unpacking 0%')
 time.sleep(3)
 print('Memulai Proses Unpacking 6%')
@@ -76,7 +80,7 @@ print('Memulai Proses Unpacking 80%')
 time.sleep(3)
 print('Memulai Proses Unpacking 100%')
 time.sleep(2)
-print('############################')
+print(biru+'############################')
 print(nama)
 time.sleep(2)
 print(nad)
@@ -139,4 +143,28 @@ time.sleep(2)
 print(nad,129)
 time.sleep(2)
 print(nad,130)
+time.sleep(2)
+print(nad+a)
+time.sleep(2)
+print(nad+b)
+time.sleep(2)
+print(nad+c)
+time.sleep(2)
+print(nad+d)
+time.sleep(2)
+print(nad+e)
+time.sleep(2)
+print(nad+f)
+time.sleep(2)
+print(nad+f)
+time.sleep(2)
+print(nad+g)
+time.sleep(2)
+print(nad+h)
+time.sleep(2)
+print(nad+l)
+time.sleep(2)
+print(nad+m)
+time.sleep(2)
+print(nad+n)
 time.sleep(2)
