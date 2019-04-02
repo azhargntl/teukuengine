@@ -19,30 +19,20 @@ putih = "\033[0;1m"
 merah = "\033[31;1m"
 netral = "\033[0m"
 print(biru+'''
-$$$$$$$$$$$$$ $$$$$$$$$$ $$      $$ $$  $$ $$      $$
-     $$       $$         $$      $$ $$ $$  $$      $$
-     $$       $$$$$$$$$$ $$      $$ $$$$   $$      $$
-     $$       $$         $$      $$ $$ $$  $$      $$
-     $$       $$$$$$$$$$ $$$$$$$$$$ $$  $$ $$$$$$$$$$
-#####################################################''')
-time.sleep(4)
-print(hijau+'''
-$$$$$$$$$$$$$ $$$$$$$$$$$ $$$$$$$$$$$ $$ 
-     $$       $$       $$ $$       $$ $$
-     $$       $$       $$ $$       $$ $$
-     $$       $$       $$ $$       $$ $$
-     $$       $$$$$$$$$$$ $$$$$$$$$$$ $$$$$$$$
-####################################################
-Since:2018
-'''+netral)
-print(biru+'''
-Makers:MR.Teuku
-Since:2017
-''')
-print(merah+'COPYRIGHT 2019'+netral)
-print(merah+'Untuk Keluar Tekan _NO_')
+-----------------------------------------------
+|                                             |
+|           # Worldlist Engine #              |
+|           #Making By:Mr.Teuku #             |
+|     #Contact Me:azhargntl1@gmail.com#       |
+|           # CopyRight (2019) #              |
+|             # Since: (2018) #               |
+|                                             |
+|                                             |
+|                                             |
+|Note:For Exit_K_                             |
+|_____________________________________________|''')
 nama = input(biru+'Siapa nama lengkap Target>')
-if nama == "NO" or nama == "no":
+if nama == "K" or nama == "k":
     exit()
 nad = input('Nama Depan>')
 nab = input('Nama Belakang>')
