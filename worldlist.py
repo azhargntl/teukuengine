@@ -34,7 +34,6 @@ if sys.version_info[0] !=3:
     example:
             python3/python worldlist.py
     ================================''')
-    sleep(2)
 	sys.exit()
 biru = "\033[96;1m" 
 hijau = "\033[32;1m" 
@@ -67,6 +66,8 @@ tgl = input('Tanggal Lahir>')
 while len(tgl) != 0 and len(tgl) != 8:
     print('\r\n[#]Harus Lebih Dari 0 Dan Kurang Dari 8 Angka!!')
     tgl = input('Tanggal Lahir>')
+    if tgl == "K" or tgl == "k":
+	exit()
 if tgl == 'K' or tgl == 'k':
     exit()
 np = input(netral+hijau+'Nama pet>')
