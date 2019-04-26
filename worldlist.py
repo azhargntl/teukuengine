@@ -74,6 +74,11 @@ np = input(netral+hijau+'Nama pet>')
 if np == 'K' or np == 'k':
     exit()
 npt = input('tanggal pet>')
+while len(npt) != 0 and len(npt) != 8:
+    print('\r\n[#]Harus Lebih Dari 0 Dan Kurang Dari 8 Angka!!')
+    npt = input('Tanggal Lahir>')
+    if npt == "K" or npt == 'k':
+        exit()
 if npt == 'K' or npt == 'k':
     exit()
 pc = input(netral+merah+'Nama Pacar>')
